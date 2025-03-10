@@ -31,4 +31,16 @@ public class Pessoa {
     public void setIdade(int idade){
         this.idade = idade;
     }
+
+    public void apresentarDados(){
+        System.out.println("E-mail: "+ email);
+        System.out.println("Nome: "+ nome);
+        System.out.println("Idade: "+ idade);
+    }
+
+    public void deletarDados(){
+        this.email = null;
+        this.nome = null;
+        this.idade = null;
+    }
 }
